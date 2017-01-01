@@ -1,37 +1,66 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
         <link rel="stylesheet" href="style.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="action.js"></script>
     </head>
     <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand clear selectable"><span class="sun icon"></span></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navlist" id="navBar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="passive"><a class="mercury selectable"><span class="mercury icon"></span></a></li>
+                        <li class="passive"><a class="venus selectable"><span class="venus icon"></span></a></li>
+                        <li class="passive"><a class="earth selectable"><span class="earth icon"></span></a></li>
+                        <li class="passive"><a class="mars selectable"><span class="mars icon"></span></a></li>
+                        <li class="passive"><a class="jupiter selectable"><span class="jupiter icon"></span></a></li>
+                        <li class="passive"><a class="saturn selectable"><span class="saturn icon"></span></a></li>
+                        <li class="passive"><a class="uranus selectable"><span class="uranus icon"></span></a></li>
+                        <li class="passive"><a class="neptune selectable"><span class="neptune icon"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
 		<div class="solarSystem">
 			<div class="sun"></div>
-			<div class="mercury orbit">
-				<div class="mercury planet"></div>
-			</div>
-			<div class="venus orbit">
-				<div class="venus planet"></div>
-			</div>
-			<div class="earth orbit">
-				<div class="earth planet"></div>
-			</div>
-			<div class="mars orbit">
-				<div class="mars planet"></div>
-			</div>
-			<div class="jupiter orbit">
-				<div class="jupiter planet"></div>
-			</div>
-			
-			<div class="saturn orbit">
-				<div class="saturn planet"></div>
+			<div class="neptune orbit">
+				<div class="neptune planet selectable"></div>
 			</div>
 			<div class="uranus orbit">
-				<div class="uranus planet"></div>
+				<div class="uranus planet selectable"></div>
 			</div>
-			<div class="neptune orbit">
-				<div class="neptune planet"></div>
+			<div class="saturn orbit">
+				<div class="saturn planet selectable"></div>
 			</div>
+			<div class="jupiter orbit">
+				<div class="jupiter planet selectable"></div>
+			</div>
+			<div class="mars orbit">
+				<div class="mars planet selectable"></div>
+			</div>
+			<div class="earth orbit">
+				<div class="earth planet selectable"></div>
+			</div>
+			<div class="venus orbit">
+				<div class="venus planet selectable"></div>
+			</div>
+			<div class="mercury orbit">
+				<div class="mercury planet selectable"></div>
+			</div>
+		</div>
+		<div class="info">
 		</div>
     </body>
 </html>
