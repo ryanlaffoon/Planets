@@ -12,8 +12,7 @@
     "lengthOfDay": "58d 15h 30m",
     "mass": "3.285 × 10^23 kg",
     "orbitalPeriod": "88 days",
-    "gravity": "3.7 m/s²",
-    "surfaceArea": "28.88 million mi²"
+    "gravity": "3.7 m/s²"
   },
   {
     "id": 2,
@@ -28,8 +27,7 @@
     "lengthOfDay": "116d 18h 0m",
     "mass": "4.867 × 10^24 kg",
     "orbitalPeriod": "225 days",
-    "gravity": "8.87 m/s²",
-    "surfaceArea": "177.7 million mi²"
+    "gravity": "8.87 m/s²"
   },
   {
     "id": 3,
@@ -47,7 +45,6 @@
     "orbitalPeriod": "365.25 days",
     "distance-from-sun": "92.96 million mi",
     "gravity": "9.807 m/s²",
-    "surfaceArea": "",
     "moons": [
       { "name": "Moon" }
     ]
@@ -66,7 +63,6 @@
     "mass": "6.39 × 10^23 kg",
     "orbitalPeriod": "686.97 days",
     "gravity": "3.711 m/s²",
-    "surfaceArea": "55.91 million mi²",
     "moons": [
       { "name": "Phobos" },
       { "name": "Deimos" }
@@ -86,7 +82,6 @@
     "mass": "1.898 × 10^27 kg",
     "orbitalPeriod": "12 years",
     "gravity": "24.79 m/s²",
-    "surfaceArea": "",
     "moons": [
       { "name": "Europa" },
       { "name": "Ganymede" },
@@ -112,7 +107,6 @@
     "mass": "5.683 × 10^26 kg",
     "orbitalPeriod": "29 years",
     "gravity": "10.44 m/s²",
-    "surfaceArea": "",
     "moons": [
       { "name": "Titan" },
       { "name": "Enceladus" },
@@ -138,7 +132,6 @@
 		"mass": "8.681 × 10^25 kg",
 		"orbitalPeriod": "84 years",
 		"gravity": "8.69 m/s²",
-		"surfaceArea": "",
     "moons": [
       { "name": "Titania" },
       { "name": "Umbriel" },
@@ -147,7 +140,26 @@
       { "name": "Trinculo" },
       { "name": "Oberon" },
       { "name": "Puck" },
-      { "name": "...More..." }
+      { "name": "Cordelia" },
+      { "name": "Ophelia" },
+      { "name": "Bianca" },
+      { "name": "Cressida" },
+      { "name": "Desdemona" },
+      { "name": "Juliet" },
+      { "name": "Portia" },
+      { "name": "Rosalind" },
+      { "name": "Belinda" },
+      { "name": "Caliban" },
+      { "name": "Sycorax" },
+      { "name": "Prospero" },
+      { "name": "Setebos" },
+      { "name": "Stephano" },
+      { "name": "Francisco" },
+      { "name": "Margaret" },
+      { "name": "Ferdinand" },
+      { "name": "Perdita" },
+      { "name": "Mab" },
+      { "name": "Cupid" }
     ]
 	},
   {
@@ -164,7 +176,6 @@
     "mass": "1.024 × 10^26 kg",
     "orbitalPeriod": "165 years",
     "gravity": "11.15 m/s²",
-    "surfaceArea": "",
     "moons": [
       { "name": "Triton" },
       { "name": "S/2004 N 1" },

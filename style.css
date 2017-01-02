@@ -9,18 +9,10 @@ html, body {
 	font-weight: normal; 
 }
 
-.sun {	
-	position: absolute;
-	border-radius: 50%;
-    top: 50%;
-    left: 50%;
-	background-color: white;
-	box-shadow: 0 0 2px white;
-    height: 1px;
-    width: 1px;
-    margin-top: 0px; 
-    margin-left: 0px;
+.navbar{
+    font-size:x-large;
 }
+
 
 .orbit{
 	position: absolute;
@@ -52,7 +44,7 @@ html, body {
     content: "\2644";
 }
 .uranus.icon:before {
-    content: "\2645";
+    content: "\26E2";
 }
 .neptune.icon:before {
     content: "\2646";
@@ -71,22 +63,27 @@ html, body {
     cursor: pointer;
 }
 
+.highlight{
+    box-shadow: 0 0 10px yellow;
+}
+
 .info{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .planetinfo{
     color: white;
-    width: 50vw;
-    margin: auto;
+    width: 33vw;
+    margin-left: 10px;
 }
     .planetinfo-label{
-        font-style: italic;
+        font-size: small;
         font-weight: 100;
         margin-left: 1vw;
     }
 
     .planetinfo-figure{
+        font-size: small;
         font-weight: 800;
         text-align: right;
         float:right;
